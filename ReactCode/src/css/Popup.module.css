@@ -1,0 +1,111 @@
+.popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  .closebutton {
+    color: black;
+    margin-left: 850px;
+    cursor: pointer;
+
+  }
+  .closebutton button{
+    color: black;
+
+    &:hover{
+       background-color: transparent
+    }
+  }
+  .popupContainer {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1000px;
+    margin-left: 80px;
+  }
+  
+  .popupClose {
+    float: right;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .popupTitle {
+    padding-top: 10px;
+    color: #333;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom:30px;
+    margin-left: -600px;
+    font-weight: bolder;
+  }
+  
+  .klantInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    width: 48%; /* Adjusted for two columns */
+  }
+  
+  .popupTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .popupTable th,
+  .popupTable td {
+    text-align: left;
+    padding: 8px;
+    border: none;
+  }
+  
+  /* Add any additional styles for elements not specified in your React component as necessary */
+  .actionButtonContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    margin-left:50px ;
+    
+  }
+.actionButtonContainer button{
+    color: white;
+}
+  
+  
+  .actionButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #516975;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #0887c7;
+    }
+  }
+
+ 
+  .successMessage{
+    margin-left:10px;
+    color: #0887c7;
+    font-weight: 600;
+    font-size: 21px;
+    margin-bottom: 20px;
+  }

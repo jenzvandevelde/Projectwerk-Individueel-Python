@@ -1,0 +1,85 @@
+.Klantentoevoegen {
+    background-color: transparent;
+    color: #0887c7; 
+    padding: 10px 20px;
+    border: thin solid #0887c7; 
+    width: 175px;
+    cursor: pointer;
+    margin-left:360px; 
+    font-size: 10px;
+    font-weight: 200;
+    font-weight: bold;
+    border-radius: 0%;
+}
+.Gebouw{
+    margin-left: 50px;
+}
+.Naam{
+    margin-left: 25px;
+}
+.Factuurnummer{
+    margin-left: -3px;
+}
+.koper_id{
+    margin-left: 51px;
+    margin-right: -150px;
+}
+.Schijf_id{
+    margin-left: -4px;
+}
+.SelctedKoper{
+    margin-left: 25px;
+}
+.Gebouwnummer{
+    margin-left: -15px;
+    margin-top: 15px;
+
+}
+.UserName{
+    margin-top: 6px;
+
+}
+.Factuurnummerkoper{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color:#516975;
+    margin-left: 45px;
+}
+.Userid{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color:#516975;
+    margin-left: 40px;
+}
+.Schijfid{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color:#516975;
+    margin-left: 5px;
+}
+.Gebouwnummer{
+    margin-left: -15px;
+}
+.pdf-icon {
+    font-size: 24px; 
+    margin-left: 10px;
+    color: #516975;
+  }
+  
+  .pdf-button {
+    color: #fff; /* Tekstkleur aanpassen */
+    border: none; /* Rand verwijderen */
+    cursor: pointer; /* Weergeven als een pointer bij aanwijzen */
+    padding: 5px 10px; /* Aanpassen van de padding */
+    border-radius: 5px; /* Ronde hoeken toevoegen */
+  }
+  
+  
+.geenfacturen{
+    margin-top: 50px;
+    margin-left: 37%;
+    font-weight: bold;
+}

@@ -1,0 +1,560 @@
+/* Algemene opmaak body */
+
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;  
+     max-width: 1200px; 
+     margin: 0 auto; 
+     padding: 0 20px; 
+ }
+ 
+ .container {
+     margin-top: 20px;
+ }
+ 
+ /* begin titel pagina */
+ 
+ .col-lg-11 {
+     margin-top: 98px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #516975;
+     padding-left: 50px;
+     font-weight: 600;
+     font-size: 22px;
+ }
+ 
+ .col-lg-11 p {
+     border-bottom: 1px solid rgba(81, 105, 117, 0.3); 
+     padding-bottom: 5px;
+ }
+ 
+ /* einde titel pagina */
+ 
+ /* Aangepaste stijlen voor de linkse navigatiebalk */
+ 
+ .navbar {
+     background: linear-gradient(rgba(5, 135, 199, 0.05), rgba(5, 135, 199, 0.05)), #344a63;
+     color: #fff; 
+     position: fixed;
+     top: 0;
+     left: 0;
+     height: 100vh;
+     width: 80px; 
+     padding-top: 220px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     box-shadow: 0px 4px 14px 0px #344a63; 
+ }
+ 
+ .nav-link.btn {
+     display: block;
+     width: 100%; 
+     text-align: center; 
+     background: none; 
+     border: none; 
+     padding: 0; 
+     color: #fff; 
+     border-radius: 0; 
+     margin-bottom: 35px;
+     margin-top: 35px;
+ }
+ 
+ .navbar-nav .nav-link.btn {
+     color: white;
+ }
+ 
+ .navbar-nav.flex-column {
+     display: flex;
+     flex-direction: column;
+     align-items: center; 
+     justify-content: center; 
+ }
+ 
+ .nav-link.btn {
+     display: flex;
+     align-items: center; 
+     text-align: left; 
+     padding: 10px 20px;
+     margin-bottom: 10px; 
+ }
+ .left-sidebar {
+     width: 85px; 
+ }
+ .navbar-nav.flex-column {
+     display: flex;
+     flex-direction: column;
+     justify-content: center; 
+     height: 100%; 
+     margin-top: -360px;
+ }
+ .nav-link.btn {
+     display: flex;
+     align-items: center; 
+     text-align: left;
+     padding: 10px 0; 
+     margin: 10px 0; 
+     font-size: 12px; 
+ }
+ .nav-link .icon-container {
+     width: 20px; 
+     height: 20px; 
+ }
+ .text {
+     margin-top: 10px;
+     margin-bottom: -10px;
+     font-family: 'Averta-Semibold', sans-serif;font-weight: 300;
+     font-size: 13px;
+ }
+ 
+ .icon-container {
+     display: inline-block;
+     vertical-align: middle;
+     margin-right: 5px; 
+     width: 30px; 
+     height: 30px; 
+     transition: background-color 0.3s; 
+ }
+ 
+ /* einde navbar gedeelte */
+ 
+ /* begin titel en knop */
+ 
+ .shopping {
+     margin-top: -20px;
+ }
+ 
+ .Klantentoevoegen {
+     background-color: transparent;
+     color: #0887c7; 
+     padding: 10px 20px;
+     border: thin solid #0887c7; 
+ 
+     border-radius: 30px; 
+     cursor: pointer;
+     margin-left:380px; 
+     font-size: 10px;
+     font-weight: 200;
+     font-weight: bold;
+    
+ }
+ 
+ .Klantenopzoeken {
+     margin-left: 35px; 
+     color: #0887c7;
+     border-bottom: 3px solid #0887c7; 
+     padding-bottom: 5px; 
+     display: inline-block; 
+     font-weight: 700;
+ }
+ 
+ /* einde titel en knop */
+ 
+ 
+ /* begin boven recepten gedeelte */
+ 
+ .texttopper {
+     text-align: left;
+     font-size: 11px;
+     font-weight: 100;
+     margin-bottom: -10px;
+     font-weight: bold;
+ }
+ .ID {
+     margin-left: 32px; 
+ }
+ .Name {
+     margin-left: -105px; 
+ }
+ .Unit {
+     margin-left: -55px; 
+ }
+ .Mail {
+     margin-left: -134px; 
+ }
+ .Phonenumber {
+     margin-left: -155px; 
+ }
+ .Moreinfo {
+     margin-left: -17px;
+ }
+ .Adjust {
+     margin-left: -35px; 
+ }
+ 
+ /* einde boven recepten gedeelte */
+ 
+ /* begin balk recepten */
+ 
+ .GreyBox {
+     max-height: 60px; 
+     border-radius: 10px; 
+     background-color: #fff;
+     color: #333; 
+     border-radius: 10px; 
+     padding: 20px; 
+     margin-right: 120px;
+     margin-left: 60px;
+ }
+ .Image1
+ {
+     margin-top: -50px;
+     margin-left: -34px;
+ }
+ .Symbol
+ {
+     margin-top: -50px;
+     margin-left: 5px;
+ }
+ .switch {
+     position: relative;
+     display: inline-block;
+     width: 15px;
+     height: 15px;
+     margin-top: 10px;
+ }
+ .switch input {
+     opacity: 0;
+     width: 0;
+     height: 0;
+ }
+ .slider {
+     position: absolute;
+     cursor: pointer;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #ccc; 
+     -webkit-transition: .4s;
+     transition: .4s;
+     border-radius: 50%; 
+ }
+ .container .row {
+     align-items: center;
+ }
+ .GreyBox .row {
+     display: flex;
+     align-items: center;
+     margin-top: -40px;
+     margin-left: -35px;
+ }
+ .GreyBox .row > div {
+     margin: 0; 
+     padding: 0; 
+ }
+ .KlantID{
+     margin-top: 15px;
+     font-size: 17px;
+     font-weight: 600;
+     color:#516975;
+     margin-left: 25px;
+ }
+ .UserID {
+     margin-top: 6px;
+     font-size: 17px;
+     font-weight: 600;
+     color: #516975;
+     margin-left: 20px;
+     display: inline-block; /* Zorgt ervoor dat het vakje alleen zo breed is als de inhoud */
+     padding: 5px 10px; /* Voegt wat ruimte binnen het vakje toe */
+     border: 1px solid #333; /* Border rond het vakje */
+     border-radius: 5px; /* Afgeronde hoeken voor het vakje */
+   }
+   
+ .Unitnumber
+ {
+     margin-top: 7px;
+     font-size: 14px;
+     font-weight: 600;
+     color:#516975;
+     margin-left: 3px;
+ }
+ 
+ .email-container{
+     font-size: 14px;
+     font-weight: 600;
+ }
+ .UserEmail{
+     margin-top: 0px;
+ 
+ }
+ .Telefoonnummer{
+     margin-left: -10px;
+ }
+   
+   .Email a {
+     position: absolute;
+     top: -15px; 
+     margin-left: -15px;
+     color: #516975;
+   }
+   .telefoonnummer a{
+     margin-top: -15px;
+     position: absolute;
+     font-size: 14px;
+     font-weight: 600;
+     color: #516975;
+     margin-left: -50px;
+   }
+ 
+   
+ .UserName{
+     margin-top: 7px;
+     font-size: 14px;
+     font-weight: 600;
+     color:#516975;
+ }
+ .col-lg-1.Symbol.button1 {
+     margin-left: 190px;
+     margin-top: 2px;
+ }
+ .col-lg-1.Symbol.button2 {
+     margin-left: 820px;
+     color: darkslategray;
+     margin-top: -50px;
+ }
+ .col-lg-1.Symbol.button3 {
+     margin-left: 850px;
+     color: darkslategrey;
+     margin-top: -79px;
+ }
+ 
+ 
+ .GreyBox {
+     box-shadow: 0px 4px 30px 0px #0000000D;
+     margin-bottom: 5px;
+ }
+ 
+ /* einde balk recepten */
+ 
+
+
+
+
+
+
+
+ 
+  
+  /* Rest van de stijlen voor de zoekterm-input en zoekknop blijft hetzelfde */
+  /* Stijlen voor de zoekterm-input */
+  .Searchbalk .searchTerm {
+    
+    border: 3px solid #4FAFB1;
+    border-right: none;
+    padding: 5px;
+    height: 36px; /* Aangepaste hoogte voor betere uitlijning met de zoekknop */
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  /* Stijlen voor de zoekterm-input wanneer deze gefocust is */
+  .Searchbalk .searchTerm:focus {
+    color: darkblue;
+  }
+  .mb-3{
+    margin-left: -30px;
+  }
+  /* Stijlen voor de zoekknop */
+  .Searchbalk .searchButton {
+    width: 60px;
+    height: 36px; /* Aangepaste hoogte voor betere uitlijning met de zoekbalk */
+    border: 1px solid #4FAFB1;
+    background: #4FAFB1;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+   
+  }
+  .Searchbalk{
+    margin-top: 25px;
+  }
+  .fa-search{
+    font-weight: 200;
+    font-size: 11px;
+    margin-top: -10px;
+  }
+ /* Stijlen voor de zoekterm-input */
+
+  /* Rest van de stijlen blijven hetzelfde */
+  
+  /* Stijlen voor de knoptekst "Zoek" binnen de zoekknop */
+.Searchbalk .searchButton i {
+    display: block; /* Zorg ervoor dat de tekst "Zoek" een blokelement wordt */
+    margin-top: -2px; /* Verplaats de tekst "Zoek" 15px omhoog */
+    font-size: 11px; /* Pas de lettergrootte aan indien nodig */
+  }
+  
+  /* Rest van de stijlen blijven hetzelfde */
+  .bg-primary {
+    background-color: #344A63!important;
+}
+
+.klanten-container {
+    max-height: 450px; /* Stel de gewenste maximale hoogte in */
+    overflow-y: auto; /* Voeg een verticale scrollbar toe als nodig */
+  }
+  
+  /* Voeg eventuele andere CSS-stijlen toe voor de rest van je component */
+  .nav-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .nav-icon .hover-text {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-left: 10px;
+    top: 100%;
+    left: 0;
+  }
+  
+  .nav-icon:hover .hover-text {
+    display: inline-block;
+  }
+  .nav-item{
+    margin-left: -5px;
+  }
+.klanten button{
+    font-weight: bold;
+}
+.noresults{
+    margin-top: 50px;
+    margin-left: 37%;
+    font-weight: bold;
+}
+
+/* popup css */
+.popup-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .klant-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+  }
+  
+  .column {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    text-align: left;
+  }
+
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px (0, 0, 0, 0.2);
+    border-radius: 5px;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  .popup-container button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 50%;
+    width: 30px; /* Set a fixed width for the button */
+    height: 30px; /* Set a fixed height for the button */
+    overflow: hidden;
+    transition: all 0.3s ease; /* Add a transition for smooth animation */
+  }
+  
+  .popup-container button::before {
+    content: 'X';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 7px;
+    color: #333; /* Color of the button text */
+    transition: transform 0.3s ease; /* Add a transition for smooth animation */
+  }
+  
+  .popup-container button:hover {
+    background-color: white;
+  }
+  
+  .popup-container button:hover::before {
+    transform: scale(1.2); /* Scale up the "X" when hovered */
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .klant-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    text-align: left;
+  }
+
+  

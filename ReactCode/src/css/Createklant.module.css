@@ -1,0 +1,98 @@
+/* Createklant.module.css */
+
+.createklantForm {
+    width: 100%;
+    width: 1100px; /* Increased max-width to accommodate two columns */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    margin-left: 65px;
+  }
+  
+  .popupTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .successMessage {
+    color: #008000;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  
+  .klantInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .content {
+    flex-basis: calc(50% - 10px); /* Set to 50% for two columns */
+    margin-bottom: 20px;
+  }
+  
+  .popupTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .popupTable th,
+  .popupTable td {
+    padding: 10px;
+    border: none;
+  }
+  
+  .popupTable th {
+    text-align: left;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .popupTable td input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+  }
+  
+  .actionButtonContainer {
+    text-align: center;
+    margin-top: 20px;
+    flex-basis: 100%; /* Make the button span both columns */
+  }
+  
+  .actionButton {
+    padding: 10px 20px;
+    background-color: #0074cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .actionButton:hover {
+    background-color: #0056a2;
+  }
+  
+  .popupClose {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #888;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }

@@ -1,0 +1,218 @@
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#schijven {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#recentsteFactuur {
+    font-weight: bold;
+    color: #007bff;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Overige stijlen voor specifieke elementen */
+.shopping {
+    margin-top: -20px;
+}
+
+.Klantentoevoegen {
+    background-color: transparent;
+    color: #007bff;
+    padding: 10px 20px;
+    border: thin solid #007bff;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 380px;
+    font-size: 10px;
+    font-weight: 200;
+    margin-left: 360px;
+    font-weight: bold;
+}
+
+.Klantenopzoeken {
+    margin-left: 35px;
+    color: #0887c7;
+    border-bottom: 3px solid #0887c7;
+    padding-bottom: 5px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+  
+  .scrollable-checkboxes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkbox-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .checkbox-item input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .opmerking {
+    margin-left: 10px;
+    font-style: italic;
+    color: #888; /* Kleur van de opmerkingstekst */
+  }
+  .zoekbalk{
+    margin-left: 250px;
+  }
+  .Zoekklant{
+    margin-top: -20px;
+    width: 100%;
+  }
+.zoekbtn{
+    color: white;
+    background-color: darkcyan;
+}
+#vragenForm{
+margin-left: 75px;
+}
+
+#vragenForm label[for="schijven"] {
+    font-weight: 100;
+    font-weight: bold; 
+    color: black;   
+    margin-bottom: 20px;
+    
+}
+#schijf{
+    margin-top: -6px;
+    margin-right: 10px;
+}
+.klantshowup{
+    margin-left: 75px;
+    margin-right: -150px;
+    margin-bottom: 25px;
+}
+.scrollable-checkboxes {
+    max-height: 200px; 
+    width: 450px;/* Pas de hoogte aan zoals gewenst */
+    overflow-y: auto;
+}
+
+.genereerpdf{
+    color: white;
+    background-color: darkcyan;
+}
+.schijf-omschrijving {
+    font-size: 12px; /* Grootte van de schijfomschrijving */
+    color: #666; /* Kleur van de schijfomschrijving */
+    margin-left: 10px; /* Indentatie voor de omschrijving */
+    margin-top: 15px;
+    padding-right: 10px;
+}
+  
+  .opmerking {
+    font-size: 12px;
+    color: #888;
+    font-style: normal;
+    
+  }
+  .container-klantgegevens{
+    margin-top: 50px;
+    margin-left: -110px;
+    text-align: center;
+  }
+  .FactuurMaken{
+    background-color: #324d68;
+    max-width: 50%;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 25%;
+    color: whitesmoke;
+    
+  }
+ 
+  .FactuurMaken:hover{
+    background-color: #4FAFB1;
+    color: white;
+
+  }
+  .factuurbody {
+    margin-top: 60px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Voeg een lichte schaduw toe */
+     border-radius: 20px;
+     margin-left: 75px;
+  }
+  .buttons{
+    padding-bottom: 75px;
+  }
+  .vraag1{
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: -150px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+  }
+  #recentsteFactuur{
+    margin-left: 30px;
+   
+  }
+  .vraag2{
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: -150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #factuurNummer{
+    max-width: 33%;
+    margin-top: 15px;
+    margin-bottom: -50px;
+  }
+  .main-content-factuur{
+    margin-left: 20px;
+    margin-top: 90px;
+  }
+  .Searchbalk-factuur{
+  margin-left: 110px;
+  }
+  .factuurnummer{
+    text-align: center;
+    margin-left: -80px;
+  }
+  .vraag2{
+    margin-left: -30px;  
+  }
+  .Searchbalk .searchButton,
+  .search{
+    font-size: 10px; 
+    font-style: normal;
+  }
