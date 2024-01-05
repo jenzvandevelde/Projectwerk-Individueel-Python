@@ -1,0 +1,306 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Invoice</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+        <style>
+            body, html {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        overflow: hidden;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+    }
+
+
+            body {
+                padding: 20mm;
+            }
+
+            .invoice {
+                width: 210mm;
+                height: 290mm;
+                margin: 0 auto;
+                background-color: #ffffff;
+                overflow: hidden;
+                box-shadow: none;
+            }
+
+            .logorapidpark {
+                width: 100px;
+                height: 100px;
+                margin-left: 50px;
+                margin-top: 30px;
+                border-top: none; /* Ensures there is no border on top of the image */
+
+            }
+
+            .date {
+                margin-left: 425px;
+                margin-top: -75px;
+            }
+
+            .invoicenumber {
+                margin-left: 425px;
+                margin-top: 15px;
+            }
+
+            h1 {
+                font-size: 20px;
+                margin-bottom: 10px;
+                font-weight: 300;
+                
+            }
+
+            .gray-bar {
+                background-color: #e0e0e0;
+                padding: 10px;
+                margin-bottom: 5px;
+                font-size: 10px;
+                max-height: 15px;
+            }
+
+            .gray-bar-first {
+                background-color: #e0e0e0;
+                padding: 4px;
+                margin-bottom: 5px;
+                border-bottom: solid 1px black;
+                border-top: solid 1px black;
+                border-left: solid 1px black;
+                border-right: solid 1px black;
+            }
+
+            .bedrag {
+                margin-left: 580px;
+                margin-top: -27px;
+                font-weight: bold;
+            }
+
+            .prijs_extra6 {
+                margin-top: -12px;
+                margin-left: 575px;
+            }
+
+            .prijs_extra1 {
+                margin-top: -12px;
+                margin-left: 575px;        }
+            .prijs_extra2 {
+                margin-top: -12px;
+                margin-left: 575px;        }
+
+            .prijs_extra3 {
+                margin-top: -12px;
+                margin-left: 575px;        }
+
+            .prijs_extra4 {
+                margin-top: -12px;
+                margin-left: 575px;        }
+
+            .prijs_extra5{
+                margin-top: -12px;
+                margin-left: 575px;        }
+
+            .omschrijving {
+                font-weight: bold;
+                margin-left: 5px;
+            }
+
+            .factuur {
+                margin-left: 475px;
+                font-weight: bold;
+                font-size: 25px;
+                margin-top: -5px;
+            }
+
+            .invoice-info, .addresses, .description, .total {
+                margin-bottom: 20px;
+            }
+
+            .addresses > div {
+                width: 48%;
+                display: inline-block;
+                vertical-align: top;
+                margin-top: 20px;
+                margin-bottom: -15px;
+            }
+
+            .from {
+                padding-right: 2%;
+            padding-top: 25px;
+            margin-left: 50px;
+            margin-right: -50px;
+            }
+
+            .description p, .total p {
+                margin: 10px 0;
+            }
+
+            .to {
+                margin-left: 25px;
+                margin-right: -25px;
+                padding-top: 25px;
+            }
+
+            .total {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .left, .right {
+                background-color: #f4f4f4;
+                border: 1px solid #e0e0e0;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+
+            .total {
+            display: table; /* Makes the container behave like a table */
+            width: 100%; /* Ensures it takes the full width */
+            }
+
+            .left, .right {
+            display: table-cell; /* Makes the children behave like table cells */
+            vertical-align: top; /* Aligns content to the top */
+            }
+
+            .left {
+            width: 60%;
+            padding-right: 20px;
+            box-sizing: border-box; /* This ensures that padding is included in the width */
+            }
+
+            .right {
+            width: 40%;
+            box-sizing: border-box; /* This ensures that padding is included in the width */
+            }
+
+            .gray-bar {
+                background-color: #ccc; /* Achtergrondkleur van de gray-bar */
+                padding: 10px; /* Ruimte rondom de inhoud binnen de gray-bar */
+                margin-bottom: 10px; /* Ruimte onder elke gray-bar */
+                min-height: 15px;
+            }
+
+            
+
+            .gray-bar-first{
+                margin-top: 75px;
+            }
+            
+            .right{
+                padding-right: 125px;
+                text-align: right;
+            }
+
+            .totaal {
+                font-weight: bold;
+            }
+
+            footer {
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            
+            /* Hier eindigt je CSS */
+        </style>
+    </head>
+
+    <body>
+        <!-- Hier begint je HTML body content -->
+        <div class="invoice">
+            <p class="factuur">Factuur</p>
+            <h1>RAPIDPARK CONSTRUCT BV</h1>
+            
+            
+            <img class="logorapidpark" src="https://jenzvandevelde-images-host.onrender.com/rapidparklogo.png" style="border:none;">
+
+        
+            <p class="date">Datum: [DATE]</p>
+            <p class="invoicenumber">Factuurnummer: [FACTUURNUMMER]</p>
+    
+            <div class="addresses">
+                <div class="from">
+                    <p>Pontstraat 23</p>
+                    <p>9831 Deurle</p>
+                    <p>Telefoon: 09 333 9000</p>
+                    <p>Email: info@gml-estate.com</p>
+                </div>
+                <div class="to">
+                    <p>[NAAM]</p>
+                    <p>[STRAAT] [HUISNUMMER]</p>
+                    <p>[POSTCODE] [STAD]</p>
+                    <p>Telefoon: [TELEFOONNUMMER]</p>
+                    <p>Email: [EMAIL]</p>
+                </div>
+            </div>
+            
+            <div class="gray-bar-first">
+                <p class="omschrijving">Omschrijving</p>
+                <p class="bedrag">Bedrag</p>
+            </div>
+            
+            <div class="gray-bar">
+                [extra1]
+                <p class="prijs_extra1">[PRIJS_EXTRA1]</p>
+            </div>
+            
+            <div class="gray-bar">
+                [extra2]
+                <p class="prijs_extra2">[PRIJS_EXTRA2]</p>
+            </div>
+            
+            <div class="gray-bar">
+                [extra3]
+                <p class="prijs_extra3">[PRIJS_EXTRA3]</p>
+            </div>
+            
+            <div class="gray-bar">
+                [extra4]
+                <p class="prijs_extra4">[PRIJS_EXTRA4]</p>
+            </div>
+            
+            <div class="gray-bar">
+                [extra5]
+                <p class="prijs_extra5">[PRIJS_EXTRA5]</p>
+            </div>
+            
+            <div class="gray-bar">
+                [extra6]
+                <p class="prijs_extra6">[PRIJS_EXTRA6]</p>
+            </div>
+            
+            
+            
+            
+            <div class="total">
+                <div class="left">
+                    <p>REKENINGNUMMER RAPIDPARK CONSTRUCT BE: 03 0018 9743 5184</p>
+                    <p>Gelieve de factuur te betalen binnen de 15 dagen en de factuurnummer te vermelden bij de betaling</p>
+                </div>
+                <div class="right">
+                    <p class="SUBTOTAAL">SUBTOTAAL: [SUBTOTAAL]</p>
+                    <p class="BTW">BTW 21%: [BTW]</p>
+                    <p class="totaal">TOTAAL: [TOTAAL]</p>
+                </div>
+            </div>
+            
+            
+            
+            <footer>
+                <p>Bij eventuele geschillen zijn de rechtbanken van Gent bevoegd</p>
+            </footer>
+        </div>
+        <!-- Hier eindigt je HTML body content -->
+    </body>
+
+    </html>

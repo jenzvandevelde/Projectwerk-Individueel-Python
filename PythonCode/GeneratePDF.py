@@ -116,7 +116,7 @@ def haal_klantgegevens_op_en_genereer_pdf(partial_naam, selected_schijven, curso
             factuur_naam = f"{factuurnummer} - {klantgegevens['naam']}"
 
             # Genereer de PDF met de naam in het formaat "factuurnummer - klantnaam.pdf"
-            pdf_naam = os.path.join(r"C:\Users\jensvandevelde\Desktop\Pythonprogram\Facturen", f"{factuur_naam}.pdf")
+            pdf_naam = os.path.join(r"C:\Users\jensvandevelde\Desktop\pythoncode\Projectwerk-Individueel-Python\Facturen", f"{factuur_naam}.pdf")
 
             # Vervang de placeholders in het HTML-sjabloon door de klantgegevens
             for variabele, waarde in klantgegevens.items():
